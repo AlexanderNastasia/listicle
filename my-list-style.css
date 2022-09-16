@@ -1,0 +1,85 @@
+/**
+ TODO(you): Add CSS for the list that you create yourself!
+*/
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+}
+header {
+    display: flex;
+    height: 25em;
+    width: 100%;
+    background-image: url(img/background.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/background.png);
+    background-position: center;
+}
+
+.head{
+    font-family: 'Arvo', sans-serif;
+    font-size: 2.25em;
+    font-weight: bolder;
+    color: white;
+    width: 780px;
+    text-align: center;
+}
+
+a{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.75em;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p{
+    padding: 0.5em 0em 0em 2em;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.125em;
+    color: rgb(51, 51, 51);
+    line-height: 1.25em;
+}
+
+main{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main img{
+    padding: 1em 0em 1em 0em;
+}
+
+.author{
+    display: flex;
+    font-family: 'Arvo', sans-serif;
+    font-size: 0.6875em;
+    color: rgb(51, 51, 51);
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.number{
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.125em;
+    font-weight: bold;
+    color: rgba(82, 82, 82, 0.63);
+}
+
+.genre{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25em;
+    font-weight: lighter;
+    color: rgba(61, 61, 61, 0.582);
+}
